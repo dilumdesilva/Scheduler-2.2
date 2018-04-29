@@ -11,5 +11,9 @@
     <color name="gradient_start">#2B1657</color>
     <color name="Text">#ffffff</color>
 
+    <!--calendar related colors-->
+    <color name="CalenderViewDateCustomText">#ffffff</color>
+    <color name="CalenderViewWeekCustomText">#ffffff</color>
+
 
 </resources>
