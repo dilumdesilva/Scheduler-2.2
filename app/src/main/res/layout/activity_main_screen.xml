@@ -22,7 +22,86 @@
             android:weekDayTextAppearance="@style/CalenderViewWeekCustomText">
         </CalendarView>
 
-        
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/btn_container1"
+            android:gravity="center"
+            android:layout_marginBottom="10dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create"
+                android:id="@+id/btn_create"
+                android:background="@drawable/rounded_buttons"
+                android:textSize="@dimen/btn_textSize"
+                android:layout_marginHorizontal="@dimen/ms_btn_marginHorizontal"
+                android:width="@dimen/ms_btn_width"
+                android:height="@dimen/ms_btn_height"
+                android:elevation="@dimen/menuScreen_button_elevation"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:id="@+id/btn_view"
+                android:background="@drawable/rounded_buttons"
+                android:textSize="@dimen/btn_textSize"
+                android:layout_marginHorizontal="@dimen/ms_btn_marginHorizontal"
+                android:width="@dimen/ms_btn_width"
+                android:height="@dimen/ms_btn_height"
+                android:elevation="@dimen/menuScreen_button_elevation"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/btn_container2"
+            android:gravity="center"
+            android:layout_marginBottom="15dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:id="@+id/btn_delete"
+                android:background="@drawable/rounded_buttons"
+                android:textSize="@dimen/btn_textSize"
+                android:layout_marginHorizontal="@dimen/ms_btn_marginHorizontal"
+                android:width="@dimen/ms_btn_width"
+                android:height="@dimen/ms_btn_height"
+                android:elevation="@dimen/menuScreen_button_elevation"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Move"
+                android:id="@+id/btn_move"
+                android:background="@drawable/rounded_buttons"
+                android:textSize="@dimen/btn_textSize"
+                android:layout_marginHorizontal="@dimen/ms_btn_marginHorizontal"
+                android:width="@dimen/ms_btn_width"
+                android:height="@dimen/ms_btn_height"
+                android:elevation="@dimen/menuScreen_button_elevation"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:background="@drawable/rounded_buttons"
+            android:textSize="@dimen/btn_textSize"
+            android:width="@dimen/ms_btnSearch_width"
+            android:elevation="@dimen/menuScreen_button_elevation"/>
+
+
+
 
     </LinearLayout>
 
