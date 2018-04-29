@@ -6,4 +6,7 @@
     <dimen name="splashScreen_logoWidth">480dp</dimen>
     <dimen name="menuScreen_copyrightMsg_marginTop">1dp</dimen>
     <dimen name="logo_marginBottom">50dp</dimen>
+
+    <!--Main screen related related dimensions-->
+
 </resources>

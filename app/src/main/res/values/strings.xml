@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">Scheduler2.2</string>
+
+    <!--splash screen related strings-->
     <string name="copyright_messege">Copyright © 2018 | Developed by Dilum De Silva</string>
+
+    <!--Main screen related strings-->
+
 </resources>
