@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--splash screen related dimensions-->
+    <dimen name="splashScreen_logoHeight">400dp</dimen>
+    <dimen name="splashScreen_logoWidth">480dp</dimen>
+    <dimen name="menuScreen_copyrightMsg_marginTop">1dp</dimen>
+    <dimen name="logo_marginBottom">50dp</dimen>
+</resources>

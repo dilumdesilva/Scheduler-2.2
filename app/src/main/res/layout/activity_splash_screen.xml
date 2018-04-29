@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/activity_splash_screen"
+    android:background="@drawable/background_gradients"
     tools:context=".SplashScreen">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <!--Splash screen inner layout-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
 
-</android.support.constraint.ConstraintLayout>
+        <!--image view which holds the logo of the splash screen-->
+        <ImageView
+            android:id="@+id/ss_imageView"
+            android:layout_width="@dimen/splashScreen_logoWidth"
+            android:layout_height="@dimen/splashScreen_logoHeight"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/logo_marginBottom"
+            android:src="@drawable/logo" />
+
+        <!--Copyright Message-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|bottom"
+            android:gravity="center"
+            android:textColor="@color/Text"
+            android:text="@string/copyright_messege"
+            android:textSize="9sp"
+            android:layout_marginTop="@dimen/menuScreen_copyrightMsg_marginTop"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
