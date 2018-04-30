@@ -48,12 +48,14 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_popup_deleteAll"
                 android:text="Delete All"
                 android:width="200dp"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:id="@+id/btn_popup_deleteSelected"
                 android:text="Select to delete"
                 android:width="200dp"/>
 
