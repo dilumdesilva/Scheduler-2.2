@@ -35,7 +35,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Create"
+                android:text="@string/ms_create"
                 android:id="@+id/btn_createAppointment"
                 android:background="@drawable/rounded_buttons"
                 android:textSize="@dimen/btn_textSize"
@@ -48,7 +48,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="View"
+                android:text="@string/ms_view"
                 android:id="@+id/btn_viewEditAppointment"
                 android:background="@drawable/rounded_buttons"
                 android:textSize="@dimen/btn_textSize"
@@ -71,7 +71,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Delete"
+                android:text="@string/ms_delete"
                 android:id="@+id/btn_deleteAppointment"
                 android:background="@drawable/rounded_buttons"
                 android:textSize="@dimen/btn_textSize"
@@ -84,7 +84,7 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Move"
+                android:text="@string/ms_move"
                 android:id="@+id/btn_moveAppointment"
                 android:background="@drawable/rounded_buttons"
                 android:textSize="@dimen/btn_textSize"
@@ -99,7 +99,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SearchAppointment"
+            android:text="@string/ms_search_appointment"
             android:id="@+id/btn_searchAppointment"
             android:background="@drawable/rounded_buttons"
             android:textSize="@dimen/btn_textSize"

@@ -4,6 +4,14 @@
     <!--splash screen related strings-->
     <string name="copyright_messege">Copyright © 2018 | Developed by Dilum De Silva</string>
 
-    <!--Main screen related strings-->
+
+    <!--Main Screen related Strings-->
+    <string name="ms_search_appointment">Search Appointment</string>
+    <string name="ms_move">Move</string>
+    <string name="ms_delete">Delete</string>
+    <string name="ms_view">View</string>
+    <string name="ms_create">Create</string>
+
+
 
 </resources>
