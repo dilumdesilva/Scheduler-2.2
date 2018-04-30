@@ -10,6 +10,14 @@
     <color name="gradient_end">#8B7AAE</color>
     <color name="gradient_center">#655091</color>
     <color name="gradient_start">#2B1657</color>
+
+
+    <!--popup_gradient related colours-->
+    <color name="popup_gradient_end">#130F1B</color>
+    <color name="popup_gradient_center">#1C1628</color>
+    <color name="popup_gradient_start">#1C1F23</color>
+
+
     <color name="Text">#ffffff</color>
 
     <!--calendar related colors-->

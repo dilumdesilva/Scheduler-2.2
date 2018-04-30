@@ -12,6 +12,11 @@
     <string name="ms_view">View</string>
     <string name="ms_create">Create</string>
 
+    <!--Delete popup related strings-->
+    <string name="d_popup_msg">Please select an option,</string>
+    <string name="d_popup_heading">Delete Appointment</string>
+    <string name="d_popup_options">1. Delete all appointments for that date \n
+    \n 2. Select an appointment to delete</string>
 
 
 </resources>
