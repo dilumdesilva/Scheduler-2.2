@@ -16,7 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainScreen"></activity>
+        <activity android:name=".MainScreen" />
+        <activity android:name=".CreateAppointmentScreen" />
+        <activity android:name=".EditAppointmentScreen" />
+        <activity android:name=".SearchAppoinmentScreen"></activity>
     </application>
 
 </manifest>

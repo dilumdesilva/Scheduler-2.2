@@ -8,12 +8,19 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+/**
+ * @DevelopedBy Dilum De Silva 2016142 | w16266371
+ *
+ */
 public class SplashScreen extends AppCompatActivity {
 
     //declaring splash screen related components
     private ImageView ss_imageView;
     private TextView ss_textView;
 
+    /**
+     * @param savedInstanceState
+     */
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
