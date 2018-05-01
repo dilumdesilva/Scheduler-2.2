@@ -73,7 +73,7 @@
                 android:layout_height="100dp"
                 android:layout_marginBottom="30dp"
                 android:ems="10"
-                android:hint="Details of the appointment"
+                android:hint="@string/updatePopUp_updateDetails"
                 android:inputType="textMultiLine"/>
 
         </LinearLayout>

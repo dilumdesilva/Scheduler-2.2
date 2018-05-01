@@ -10,7 +10,8 @@
         05 - UPDATE POPUP SCREEN
         06 - MOVE POPUP SCREEN
         07 - CREATE APPOINTMENT SCREEN
-        08 -
+        08 - SEARCH POPUP SCREEN
+        09 - SEARCH APPOINTMENT SCREEN
 
         Developed by Dilum De Silva | 2016142
     -->
@@ -41,6 +42,7 @@
     <string name="updatePopUp_subHeading">Please fill necessary fields to update appointment</string>
     <string name="updatePopUp_updateTittle">Title of the appointment</string>
     <string name="updatePopUp_updateTime">Time of the appointment</string>
+    <string name="updatePopUp_updateDetails">Details of the appointment</string>
 
     <!--Move popup related strings-->
     <string name="movePopup_heading">MOVE APPOINTMENT</string>
@@ -51,6 +53,16 @@
     <string name="createAppointment_heading">CREATE APPOINTMENT</string>
     <string name="createScreen_thesaurusDescription">Type a word in the text box bellow and press the THESAURUS button to find out the synonyms related to that word</string>
     <string name="createScreen_btnSave_text">SAVE</string>
+
+    <!--search popup related strings-->
+    <string name="searchPopUp_Tittle">Title of the appointment</string>
+    <string name="searchPopUp_Time">Time of the appointment</string>
+    <string name="searchPopUp_Details">Details of the appointment</string>
+
+    <!--Search appointment screen related strings-->
+    <string name="searchAppointment_heading">SEARCH APPOINTMENT</string>
+    <string name="searchAppointment_subHeading">Please enter a keyword and press the SEARCH button to search relevant appointments</string>
+    <string name="searchAppointment_ETextHint">Enter a keyword</string>
 
 
 </resources>
