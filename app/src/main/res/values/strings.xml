@@ -1,4 +1,22 @@
 <resources>
+
+    <!--
+    SECTIONS OF THE STRING RESOURCES FILE
+
+        01 - APP THEME
+        02 - SPLASH SCREEN
+        03 - MAIN SCREEN
+        04 - DELETE POPUP SCREEN
+        05 - UPDATE POPUP SCREEN
+        06 - MOVE POPUP SCREEN
+        07 - CREATE APPOINTMENT SCREEN
+        08 -
+
+        Developed by Dilum De Silva | 2016142
+    -->
+
+
+    <!--main app theme related settings-->
     <string name="app_name">Scheduler2.2</string>
 
     <!--splash screen related strings-->
@@ -18,8 +36,21 @@
     <string name="d_popup_options">1. Delete all appointments for that date \n
     \n 2. Select an appointment to delete</string>
 
+    <!--update popup related strings-->
+    <string name="updatePopUp_heading">UPDATE APPOINTMENT</string>
+    <string name="updatePopUp_subHeading">Please fill necessary fields to update appointment</string>
+    <string name="updatePopUp_updateTittle">Title of the appointment</string>
+    <string name="updatePopUp_updateTime">Time of the appointment</string>
 
+    <!--Move popup related strings-->
+    <string name="movePopup_heading">MOVE APPOINTMENT</string>
+    <string name="movePopup_subHeading">Please select the date you wish to move the appointment</string>
+    <string name="btnmovePopup_text">MOVE</string>
 
+    <!--create appointment screen related strings-->
+    <string name="createAppointment_heading">CREATE APPOINTMENT</string>
+    <string name="createScreen_thesaurusDescription">Type a word in the text box bellow and press the THESAURUS button to find out the synonyms related to that word</string>
+    <string name="createScreen_btnSave_text">SAVE</string>
 
 
 </resources>

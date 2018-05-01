@@ -8,6 +8,11 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!--Make the dialog box white-->
+    <style name="DilumCustomDialogTheme" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>
+
     <!--calendar related styles-->
     <style name="CalenderViewCustom" parent="Theme.AppCompat">
         <item name="colorAccent">@color/colorAccent</item>

@@ -147,6 +147,37 @@ public class SQLiteHandler extends SQLiteOpenHelper {
         }
     }
 
+    public int moveAppointment(Appointment appointment , String date ){
+
+        SQLiteDatabase db = getWritableDatabase();
+
+        String sql = " SELECT * FROM " + TABLE_APPOINTMENTS + " WHERE "
+                + COLUMN_DATE + "=\'" + appointment.getDate() + "\'" + " AND " +
+                COLUMN_TITLE + "=\'" + appointment.getTitle() + "\';";
+
+        Cursor cursor = db.rawQuery(sql,null);
+
+        if (cursor == null || !cursor.moveToFirst()) {
+
+            return -1;
+
+        } else {
+
+            ContentValues contentValues = new ContentValues();
+
+            //stores the values to be updated
+            contentValues.put(COLUMN_DATE , date);
+
+            //insert the values into the database
+            db.update(TABLE_APPOINTMENTS, contentValues , COLUMN_DATE + "='" + appointment.getDate() + "'" + " AND " +
+                    COLUMN_TITLE + "='" + appointment.getTitle() + "'" , null);
+            db.close(); //restores the memory
+            cursor.close();
+            return 1;
+
+        }
+    }
+
     public String databaseToString(){
 
         String dbString = "";

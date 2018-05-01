@@ -122,6 +122,8 @@ public class EditAppointmentScreen extends AppCompatActivity {
         listView = (ListView) findViewById(R.id.appointmentList);
         listView.setAdapter(adapter);
 
+
+
         confirmBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -175,7 +177,7 @@ public class EditAppointmentScreen extends AppCompatActivity {
     public void errorDialog(String error)
     {
 
-        AlertDialog.Builder builder = new AlertDialog.Builder(this , R.style.BrionDialogTheme);
+        AlertDialog.Builder builder = new AlertDialog.Builder(this , R.style.DilumCustomDialogTheme);
         builder.setMessage(error);
         builder.setCancelable(true);
 
@@ -186,7 +188,7 @@ public class EditAppointmentScreen extends AppCompatActivity {
                         Toast.makeText(getBaseContext(), "Deleted the " +
                                 listArr.get(Integer.parseInt(appointmentNumber) - 1).getTitle() +
                                 " appointment.", Toast.LENGTH_SHORT).show();
-                        myDBHandler.deleteAppointments(date , listArr.get(Integer.parseInt(appointmentNumber)-1).getTitle());
+                        sqLiteHandler.deleteAppointments(date , listArr.get(Integer.parseInt(appointmentNumber)-1).getTitle());
                         //adapter.notifyDataSetChanged(); //refreshes the list, NOT WORKING
                         dialog.dismiss();
 
@@ -217,11 +219,11 @@ public class EditAppointmentScreen extends AppCompatActivity {
 
         try {
             //get an instance of layoutinflater
-            LayoutInflater inflater = (LayoutInflater) ChangeAppointmentScreen.this
+            LayoutInflater inflater = (LayoutInflater) EditAppointmentScreen.this
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             //initiate the view
             final View layout = inflater.inflate(R.layout.update_popup,
-                    (ViewGroup) findViewById(R.id.updatePopupView));
+                    (ViewGroup) findViewById(R.id.updatePopup_screen));
 
             //initialize a size for the popup
             popupWindow = new PopupWindow(layout, 1200, 1650 ,  true);
@@ -240,7 +242,7 @@ public class EditAppointmentScreen extends AppCompatActivity {
                 public void onClick(View v) {
 
                     try {
-                        int success = myDBHandler.updateAppointment(listArr.get(Integer.parseInt(appointmentNumber) - 1),
+                        int success = sqLiteHandler.updateAppointment(listArr.get(Integer.parseInt(appointmentNumber) - 1),
                                 timeET.getText().toString(), titleET.getText().toString(), detailsET.getText().toString());
 
                         if (success == 1) {
@@ -287,11 +289,11 @@ public class EditAppointmentScreen extends AppCompatActivity {
 
         try {
             //get an instance of layoutinflater
-            LayoutInflater inflater = (LayoutInflater) ChangeAppointmentScreen.this
+            LayoutInflater inflater = (LayoutInflater) EditAppointmentScreen.this
                     .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
             //initiate the view
             final View layout = inflater.inflate(R.layout.move_popup,
-                    (ViewGroup) findViewById(R.id.movePopupView));
+                    (ViewGroup) findViewById(R.id.movePopup_screen));
 
             //initialize a size for the popup
             popupWindow = new PopupWindow(layout, 1200, 1800 ,  true);
@@ -318,7 +320,7 @@ public class EditAppointmentScreen extends AppCompatActivity {
 
                     try {
 
-                        myDBHandler.moveAppointment(listArr.get(Integer.parseInt(appointmentNumber) - 1) , popupDate);
+                        sqLiteHandler.moveAppointment(listArr.get(Integer.parseInt(appointmentNumber) - 1) , popupDate);
 
                         //refreshes the page
                         finish();
