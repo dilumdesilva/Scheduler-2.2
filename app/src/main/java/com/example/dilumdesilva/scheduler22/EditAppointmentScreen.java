@@ -226,7 +226,7 @@ public class EditAppointmentScreen extends AppCompatActivity {
                     (ViewGroup) findViewById(R.id.updatePopup_screen));
 
             //initialize a size for the popup
-            popupWindow = new PopupWindow(layout, 1200, 1650 ,  true);
+            popupWindow = new PopupWindow(layout, 1020, 1650 ,  true);
             // display the popup in the center
             popupWindow.showAtLocation(v, Gravity.CENTER, 0, 0);
 
@@ -296,7 +296,7 @@ public class EditAppointmentScreen extends AppCompatActivity {
                     (ViewGroup) findViewById(R.id.movePopup_screen));
 
             //initialize a size for the popup
-            popupWindow = new PopupWindow(layout, 1200, 1800 ,  true);
+            popupWindow = new PopupWindow(layout, 1020, 1800 ,  true);
             // display the popup in the center
             popupWindow.showAtLocation(v, Gravity.CENTER, 0, 0);
 

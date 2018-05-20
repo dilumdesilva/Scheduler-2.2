@@ -132,7 +132,7 @@ public class MainScreen extends AppCompatActivity implements View.OnClickListene
                     (ViewGroup) findViewById(R.id.delete_popup));
 
             //initialize a size for the popup
-            popupWindow = new PopupWindow(layout, 1200, 900 ,  true);
+            popupWindow = new PopupWindow(layout, 1000, 900 ,  true);
             // display the popup in the center
             popupWindow.showAtLocation(v, Gravity.CENTER, 0, 0);
 

@@ -6,7 +6,8 @@
     android:id="@+id/delete_popup"
     android:padding="10px"
     android:background="@drawable/popup_gradient"
-    android:gravity="center">
+    android:gravity="center"
+    android:layout_gravity="center_horizontal">
 
 
     <LinearLayout

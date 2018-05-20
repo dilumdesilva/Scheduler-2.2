@@ -147,7 +147,7 @@ public class SearchAppoinmentScreen extends AppCompatActivity implements View.On
         detailsTV = (TextView) layout.findViewById(R.id.searchedDetails) ;
 
         //initialize a size for the popup
-        popupWindow = new PopupWindow(layout, 1200, 900 ,  true);
+        popupWindow = new PopupWindow(layout, 1000, 900 ,  true);
         // display the popup in the center
         popupWindow.showAtLocation(v, Gravity.CENTER, 0, 0);
 
