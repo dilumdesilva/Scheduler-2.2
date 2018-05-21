@@ -53,7 +53,7 @@ public class CreateAppointmentScreen extends AppCompatActivity implements View.O
     //variables to store the input from the text box
     private String inputWord;
     //constant for the thesaurus service key
-    public static final String THESAURUS_KEY = "UntLDHf7wjETU9pRAKzY";
+    public static final String THESAURUS_KEY = "3qE7Rfqi7Yl2Sdgyuof6";
     //variable to store the language
     private String lang = "en_US";
 
@@ -231,7 +231,7 @@ public class CreateAppointmentScreen extends AppCompatActivity implements View.O
                     (ViewGroup) findViewById(R.id.popUpList));
 
             //initialize a size for the popup
-            popupWindow = new PopupWindow(layout, 1300, 1600 ,  true);
+            popupWindow = new PopupWindow(layout, 1000, 1600 ,  true);
             // display the popup in the center
             popupWindow.showAtLocation(v, Gravity.CENTER, 0, 0);
 
