@@ -14,7 +14,7 @@ A android based appointment management application, which the user will be using
 
 Following picture is showing the main screens of this **Scheduler-2.2** game.
 
-![MainScreenOfTheGame](resources/mainScreens.png)
+![MainScreensOfTheGame](resources/main_screens.png)
 
 The first screen shows the **splash screen** of my game and I added a logo and a some faded animation to make it looks better. Second screen presents the user with **a calendar** displaying the dates of the current month and year and 5 buttons labelled **Create Appointment, View/Edit Appointments, Delete Appointment, Move Appointment, Search.** and also The user can select a day by clicking on the corresponding date of the calendar. The user can select a different month or year by using the displayed calendar.
 
@@ -36,4 +36,7 @@ For further user can perform following tasks using the main app screen(Second Sc
 * Clicking on the **Move Appointment button** displays the user with all appointments for that date, asking him/her to select a specific appointment. Then the application allows the user to select another date from a calendar view, in which case the appointment is transferred automatically to the newly selected date (the database is updated accordingly).
 
 * Clicking on the Search button of the initial screen will be used by the user in order to retrieve ap- pointments for which he/she does not remember the date. Clicking on the button will ask the user to enter a string used for the search. The application will search all future appointments and try to match the entered string with the title and details of any ap- pointment(s). The matched appointment(s) will be displayed to the user and he/she will be able to select one of them to see the full details of it.
+
+
+![FuntionScreensOfTheGame](resources/functionscreens.png)
 
