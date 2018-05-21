@@ -38,5 +38,5 @@ For further user can perform following tasks using the main app screen(Second Sc
 * Clicking on the Search button of the initial screen will be used by the user in order to retrieve ap- pointments for which he/she does not remember the date. Clicking on the button will ask the user to enter a string used for the search. The application will search all future appointments and try to match the entered string with the title and details of any ap- pointment(s). The matched appointment(s) will be displayed to the user and he/she will be able to select one of them to see the full details of it.
 
 
-![FuntionScreensOfTheGame](resources/functionscreens.png)
+![FuntionScreensOfTheGame](resources/functionScreens.png)
 
